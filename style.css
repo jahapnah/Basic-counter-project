@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper
+{
+    background-color: #344151;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.text{
+    color: #0398d4;
+}
+
+.bttn img{
+    width: 10px;
+    padding-top: 2px;
+}
+
+.bttn{
+    width: 20px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    color: black;
+    border-radius: 4px;
+}
+
+.buttons{
+    display: flex;
+    gap: 2rem;
+}
